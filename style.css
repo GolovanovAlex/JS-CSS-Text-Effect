@@ -3,3 +3,24 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #101010;
+}
+.title {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(1rem, 10vw, 15rem);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fffafa;
+  padding: 0 clamp(1rem, 2vw, 3rem);
+  border-radius: 10px;
+}
+.title:hover {
+  background-color: #fffafa;
+  color: #101010;
+}
